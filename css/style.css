@@ -1,0 +1,323 @@
+body {
+    background-color: #E6E6FA;
+}
+
+p {
+    font-size: 48px;
+    color: #CD5C5C;
+    text-align: center;
+    text-decoration: overline;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 0 0 60px 0;
+}
+
+.a1 {
+    text-decoration: none;
+    font-size: 24px;
+    border: 5px double crimson;
+    color: #CD5C5C;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.a1:last-child {
+    margin-right: 0;
+}
+
+.a1:hover {
+    border: 5px double violet;
+    color: plum;
+    background-color: cornsilk;
+    font-weight: 600;
+    box-shadow: 5px -5px 10px #8A2BE2;
+}
+
+.a2 {
+    color: #fff;
+    padding: 15px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid gold;
+    background: gold;
+    text-decoration: none;
+}
+
+.a2:hover {
+    background: transparent;
+    color: gold;
+}
+
+.a3 {
+    background-image: url(https://i.pinimg.com/originals/bb/36/57/bb3657a3e35bfaf3a490b6474c28daaf.gif);
+    background-size: cover;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+.a3:hover {
+    background-color: transparent;
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px #1e9bff;
+    color: #1e9bff;
+    border: 2px solid #1e9bff;
+}
+
+.a4 {
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    background: linear-gradient(to right, darkmagenta 5%, #f24437 100%);
+    background-color: darkmagenta;
+    border-radius: 18px;
+    border: 1px solid darkviolet;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #810e05;
+}
+
+.a4:hover {
+    background: linear-gradient(to right, #f24437 5%, darkmagenta 100%);
+    background-color: #f24437;
+}
+
+
+.a5 {
+    background: linear-gradient(to right,
+            red 0%,
+            orange 16.67%,
+            yellow 33.33%,
+            green 50%,
+            blue 66.67%,
+            indigo 83.33%,
+            violet 100%);
+    border-radius: 28px;
+    text-shadow: 3px 4px 5px #0c58f0;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: solid snow 2px;
+    text-decoration: none;
+}
+
+.a5:hover {
+    background: linear-gradient(to right,
+            violet 0%,
+            indigo 16.67%,
+            blue 33.33%,
+            green 50%,
+            yellow 66.67%,
+            orange 83.33%,
+            red 100%);
+    text-decoration: none;
+}
+
+.a6 {
+    background: linear-gradient(to right, #196BCA, #6433E0);
+    background-color: #196BCA;
+    color: #f3f3f3;
+    font-family: Lucida Console;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: 3px solid #7005ed;
+    border-radius: 46px;
+}
+
+.a6:hover {
+    background: #5f30d5;
+    font-style: italic;
+}
+
+.a7 {
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 5px;
+    border: none;
+    background: #ff6392;
+    box-shadow: 0 5px #ff0a78;
+    text-decoration: none;
+}
+
+.a7:hover {
+    font-weight: bold;
+    box-shadow: 0 3px #ff0a78;
+    top: 1px;
+}
+
+/* Практична 1 */
+.custom-button1 {
+    box-shadow: inset 0px 1px 18px 0px lime;
+    background: linear-gradient(to bottom, teal 5%, white 100%);
+    background-color: teal;
+    border-radius: 26px;
+    border: 4px solid teal;
+    cursor: pointer;
+    color: lavender;
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+.custom-button1:hover {
+    background: linear-gradient(to bottom, white 5%, teal 100%);
+    background-color: white;
+}
+
+/* Практична 2 */
+.custom-button2 {
+    box-shadow: inset 0px 1px 18px 0px gold;
+    background: linear-gradient(to bottom, #deb887 5%, white 100%);
+    background-color: #deb887;
+    border-radius: 26px;
+    border: 4px solid #deb887;
+    cursor: pointer;
+    color: ghostwhite;
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+.custom-button2:hover {
+    background: linear-gradient(to bottom, white 5%, #deb887 100%);
+    background-color: white;
+}
+
+/* Практична 3 */
+.custom-button3 {
+    box-shadow: inset 0px 1px 18px 0px plum;
+    background: linear-gradient(to bottom, rgb(135, 109, 164) 5%, white 100%);
+    background-color: rgb(135, 109, 164);
+    border-radius: 26px;
+    border: 4px solid rgb(135, 109, 164);
+    cursor: pointer;
+    color: lavender;
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+.custom-button3:hover {
+    background: linear-gradient(to bottom, white 5%, rgb(135, 109, 164) 100%);
+    background-color: white;
+}
+
+/* Практична 4 */
+.custom-button4 {
+    box-shadow: inset 0px 1px 18px 0px tomato;
+    background: linear-gradient(to bottom, lightcoral 5%, white 100%);
+    background-color: lightcoral;
+    border-radius: 26px;
+    border: 4px solid lightcoral;
+    cursor: pointer;
+    color: lavender;
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 29px;
+    text-decoration: none;
+}
+
+.custom-button4:hover {
+    background: linear-gradient(to bottom, white 5%, lightcoral 100%);
+    background-color: white;
+}
+
+/* Практична 5 */
+.custom-button5 {
+    box-shadow: inset 0px 1px 18px 0px violet;
+    background: linear-gradient(to bottom, #9370DB 5%, white 100%);
+    background-color: #9370DB;
+    border-radius: 26px;
+    border: 4px solid #9370DB;
+    cursor: pointer;
+    color: lavender;
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+.custom-button5:hover {
+    background: linear-gradient(to bottom, white 5%, #9370DB 100%);
+    background-color: white;
+}
+
+/* Практична 6 */
+.custom-button6 {
+    box-shadow: inset 0px 1px 18px 0px dimgray;
+    background: linear-gradient(to bottom, black 5%, gainsboro 100%);
+    background-color: black;
+    border-radius: 26px;
+    border: 4px solid black;
+    cursor: pointer;
+    color: lavender;
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+.custom-button6:hover {
+    background: linear-gradient(to bottom, gainsboro 5%, black 100%);
+    background-color: gainsboro;
+}
+
+/* Практична 7 */
+.custom-button7 {
+    box-shadow: inset 0px 1px 18px 0px dimgray;
+    background: linear-gradient(to bottom, whitesmoke 5%, gainsboro 100%);
+    background-color: lightgray;
+    border-radius: 26px;
+    border: 4px solid lightgray;
+    cursor: pointer;
+    color: white;
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+.custom-button7:hover {
+    background: linear-gradient(to bottom, gainsboro 5%, whitesmoke 100%);
+    background-color: gainsboro;
+}
